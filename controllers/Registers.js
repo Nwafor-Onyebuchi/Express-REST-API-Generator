@@ -228,7 +228,7 @@ RegistersController.create = function(req,res,next){
       })
       .catch(function(err) {
         console.log(err);
-        res.send(err.response.body.message)
+        res.send(err.response)
       });
 
     // var data  = req.body;
