@@ -5,7 +5,7 @@ var databases = {
     mongo: require('./mongo'),
     redis: require('./redis'),
     api: require('./api'),
-    sql: require('./sql')
+   // sql: require('./sql')
 };
 
 module.exports = databases;
